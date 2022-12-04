@@ -18,7 +18,7 @@ subtitle = "ブログのはず。更新されるだろうか。。"
 [sidebar.avatar]
 enabled = true
 local = true
-src = "https://github.com/maommm/hugo-blog/blob/8cfef358a8dfcf6584eb8c7e389bb7d9730ba588/content/assets/1550759833205.jpg"
+src = "/assets/img/avatar.png"
 
 [article]
 math = false
