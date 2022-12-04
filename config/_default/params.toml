@@ -16,7 +16,7 @@ emoji = "🗿"
 subtitle = "ブログのはず。更新されるだろうか。。"
 
 [sidebar.avatar]
-enabled = true
+enabled = false
 local = false
 src = "assets/avatar.png"
 
