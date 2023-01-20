@@ -1,5 +1,5 @@
 ---
-title: Example Category
+title: Localization
 description: A description of this category
 image:
 
