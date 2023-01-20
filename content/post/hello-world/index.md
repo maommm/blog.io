@@ -1,19 +1,75 @@
 ---
-title: Hello World
-description: Welcome to Hugo Theme Stack
-slug: hello-world
-date: 2022-03-06 00:00:00+0000
+title: 翻訳・ローカライズ時の翻訳エラーのカテゴライズ
+description: めんどいよね
+slug: translation-error
+date: 2023-01-20 00:00:00+0000
 image: cover.jpg
 categories:
-    - Example Category
-tags:
-    - Example Tag
+    - Localization
 ---
+ローカライゼーション、もしくは翻訳などを行う際、マイナー言語が含まれたり、大規模なローカライズのPJの場合に翻訳者・校正者などと制作・開発部門やクライアントのやりとりの際にミスコミュニケーションが発生し、修正に時間がかかりやすい。
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+案件の特性上多言語でのやり取りになってしまいやすく、コミュニケーションの量というのも多くなってしまうためかと考えているが、それを解消するために、各エラーや問い合わせに対し、より明確にカテゴリ分けを行うことにした。
 
-For more information about this theme, check the documentation: https://docs.stack.jimmycai.com/
+参考にしたのは以下のリンク。
+https://www.meridianlinguistics.com/translation-careers/what-counts-as-a-translation-error/
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+基本的には、大カテゴリとして、
+- 主観的エラー
+- 客観的エラー
 
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
+として分類している。
+客観的エラーはスタイルガイドや用語集に沿わないもの、
+主観的エラーは単純な言葉の嗜好だったり、省略しても翻訳の正確性に影響を及ぼさないもの、などである。
+
+導入してみて、共通認識がもてるのでよりコミュニケーションはしやすくなたが、現状数が多く、運用しにくいのでもう少しシンプルにしていきたい。
+
+以下ざっくり一覧。
+
+客観的なエラー
+- 句読点とスペルの誤り
+
+- Omission
+翻訳上、訳文に含む必要のある原文の翻訳抜け
+
+- Mistranslation
+原文とは意味の異なる翻訳
+
+- Undertranslation
+訳文が原文より少ない情報になってしまったり、過度な単純化を行ってしまうこと
+
+- Overtranslation
+原文になかった情報、文言を追加すること。
+
+- Localization errors
+指定された地域で一般的でない用語や語彙を使用した翻訳
+イギリス英語とアメリカ英語、ブラジルポルトガル語とポルトガルポルトガル語などでの単語の差異など。
+
+- Stylistic Errores, Included in Style Guide
+スタイルガイドで決められた文体、規則に従わないこと
+
+- Specialized Terminology, Included in Glossary
+クライアントと同意している用語集に記載されている専門用語を使用しないこと
+
+- Specialized Terminology, Not Included in Glossary
+用語集にはないが、社会通念上など、一般的に訳として使用されている専門用語ではない訳を使用すること。公的機関名などがこれにあたる。
+
+- Contextual Errors
+翻訳の文脈上エラーとされるもの。
+6月→Juneともsix monthsともとれるが、文脈上意味は決まっている。
+※法律だと期間を例えば「6か月」ではなく「6月（ろくげつ）」などと表記されることが多い。翻訳者はよく混乱する模様。
+
+- Errors of Grammar or Syntax
+翻訳が翻訳言語の標準的な文法や構文の規則に従っていないもの。
+
+主観的なエラー
+- Preferential terms
+誤訳ではないが、クライアントの意向に沿わない、もしくは事前に共有されていない特殊な訳が指摘されるような場合
+- Preferential omissions
+原文では表示されるが、訳文では翻訳しないもの。
+翻訳の正確性には影響を及ぼさないもの。
+「ー－等」の「等」がこれにあたる。
+
+- Stylistic Errors Not Included in Style Guide
+トーン、書き方、フォーマルさなどで、訳文の意味に影響を及ぼさないが、クライアントの意向に沿わないもの
+should not と must notどちらでも問題ない場合にクライアントから指摘が入るときなど。
