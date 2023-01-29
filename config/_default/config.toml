@@ -11,3 +11,5 @@ DefaultContentLanguage = "en"
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage = false
+
+google_analytics = "G-K4DM44QVTK"
