@@ -2,7 +2,7 @@
 title: レビュー - 演習で身につく要件定義の実践テクニック
 description: 具体的な話があると分かりやすいよね。
 slug: enshu-yoken
-date: 2023-02-10 00:00:00+0000
+date: 2023-02-09 00:00:00+0000
 image: 
 categories:
     - Book Review
