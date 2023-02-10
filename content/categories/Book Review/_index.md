@@ -1,6 +1,6 @@
 ---
-title: Blog
-description: Blog
+title: Book Review
+description: 読んだ本の感想
 image:
 
 # Badge style

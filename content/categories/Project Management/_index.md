@@ -1,6 +1,6 @@
 ---
-title: Localization
-description: A description of this category
+title: Project Management
+description: PJ管理関連とかそういうの
 image:
 
 # Badge style
