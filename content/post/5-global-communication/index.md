@@ -1,7 +1,7 @@
 ---
 title: 異文化間の仕事の仕方、英語の使い方
 description: おい話が違うぞとなる例のアレですよ
-slug: english-communication
+slug: global-communication
 date: 2023-02-10 00:00:00+0000
 image: 
 categories:
