@@ -5,7 +5,7 @@ slug: translation-error
 date: 2023-01-20 00:00:00+0000
 image: cover.jpg
 categories:
-    - Localization
+    - Project Management
 ---
 ローカライゼーション、もしくは翻訳などを行う際、マイナー言語が含まれたり、大規模なローカライズのPJの場合に翻訳者・校正者などと制作・開発部門やクライアントのやりとりの際にミスコミュニケーションが発生し、修正に時間がかかりやすい。  
 
