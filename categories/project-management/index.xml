@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project Management on maommm blog</title><link>https://maommm.github.io/hugo-blog/categories/project-management/</link><description>Recent content in Project Management on maommm blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://maommm.github.io/hugo-blog/categories/project-management/index.xml" rel="self" type="application/rss+xml"/><item><title>私流Wikiの使い方</title><link>https://maommm.github.io/hugo-blog/p/backlog-wiki/</link><pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate><guid>https://maommm.github.io/hugo-blog/p/backlog-wiki/</guid><description>&lt;p>Backlog等のプロジェクト管理ツールて便利ですが、ルールを作るのが意外と面倒だったり。wikiに記載するのは更に面倒だったり。&lt;br>
+ということで私用備忘録である運用案件で決めた運用ルールなどwikiの内容をまとめておく。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Home&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>プロジェクト基本情報
+テスト環境、本番環境のアクセス情報、その他Gdriveへのリンクなど&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>運用ポリシー
+Issue作成時の注意など。
+ガントチャートにて管理しているので、カテゴリ、Issueタイプ、開始日と終了日の入力は必須、、などのルール。
+また、issue対応後のステータスやassigneeのルールなど。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Issueタイプ
+親課題、バグ、要望などのissueタイプ
+翻訳チーム用の翻訳タスク、などの変わったタイプもある。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>カテゴリ&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>定例業務&lt;br>
+→毎月行うような定例的な事務作業&lt;br>
+定例打合せ、報告書作成、請求書関連、月次レビュー、収支確認など。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>問い合わせ対応&lt;br>
+→クライアントの問い合わせで発生するタスク&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>通常対応&lt;br>
+→契約で決まっている通常の保守運用対応&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>社内タスク（クライアント調整要）&lt;br>
+→社内のタスクだが、クライアントとの調整が必要なもの
+クライアントとの業務フロー変更など。
+より重要度が高いと判断&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>社内タスク（業務改善）&lt;br>
+→社内の業務改善タスク。基本的には優先度は低く、対応期限は設定しても随時変更する可能性が高い&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>保留タスク&lt;br>
+現状対応の必要がないが、将来的には対応・提案の必要の可能性があるもの。&lt;br>
+このカテゴリに関しては、対応期限を設定しない。&lt;br>
+また、極力このカテゴリのタスクは作成しない。本当にどうしても保留にせざるを得ないときのみ使用。それ以外は対応要・不要を決めきることを意識している。&lt;br>
+※定例業務、問い合わせ対応、通常対応に関しては、タスクに遅れが発生した場合、その時点でチャットで共有を行うようにしている。&lt;/p>
+&lt;p>なお、このプロジェクトではタスクの優先度は設定せず、カテゴリにより優先度を決定している。問い合わせ対応の方が、社内タスクより優先度が高い、というような。&lt;br>
+というのも、プロジェクトの性質、規模的にカテゴリで分けるくらいで大体のタスクの優先度が把握できるため、カテゴリと統一した方が混乱しにくいだろう、という考えているからである。&lt;br>
+※タスク内の、細かい修正の対応リストなどではスプレッドシート上で優先度を設定することはある。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>体制&lt;br>
+プロジェクトの体制、人員構成など。体制図とかは一応別にある。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>テンプレート&lt;/strong>&lt;br>
+一部の特殊な対応のタスク記載用のテンプレート&lt;br>
+基本的なタスクに関してはBacklogの機能でissue作成時に自動でテンプレートが表示されるようにしているが、たまに発生するがややこしいもののテンプレートなど。&lt;/p>
+&lt;p>&lt;strong>マニュアル&lt;/strong>&lt;br>
+各種作業のマニュアル・ガイドラインのリンクを表示&lt;br>
+マニュアルは数が増えすぎないよう、品質と効率のバランスをとるようにしている。&lt;/p>
+&lt;p>&lt;strong>作業者メモ&lt;/strong>&lt;br>
+各作業者の細かい作業用のメモを入れる場所&lt;br>
+メンバから週次mtgなどで、ルール化するほどではないが、対応方針を決めてあげたいような、細かい質問(例えばマークアップ時のタグのつけ方の細かいやり方の違いなど。案件的には違っていてもそんなに問題がないが、作業者は気になってしまうようなもの)が発生するので、試しに作ってみた。&lt;br>
+基本的には、作業者が各自の作業時のメモを保管しておく。ほかの人から見られるので、参考にしたい情報があれば、覗きに行く感じ。&lt;br>
+ただ、ルールとして、各作業者が自由に使うので、書き方は各自自由、かつ、参考にした作業者のメモにおかしな点があっても、否定を絶対にしない。（こうしないと誰も使わなくなってしまうので。）&lt;br>
+案外お役立ちリンクみたいなものを作る人もいて、結構便利な感じだった。&lt;/p></description></item><item><title>翻訳・ローカライズ時の翻訳エラーのカテゴライズ</title><link>https://maommm.github.io/hugo-blog/p/translation-error/</link><pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate><guid>https://maommm.github.io/hugo-blog/p/translation-error/</guid><description>&lt;img src="https://maommm.github.io/hugo-blog/p/translation-error/cover.jpg" alt="Featured image of post 翻訳・ローカライズ時の翻訳エラーのカテゴライズ" />&lt;p>ローカライゼーション、もしくは翻訳などを行う際、マイナー言語が含まれたり、大規模なローカライズのPJの場合に翻訳者・校正者などと制作・開発部門やクライアントのやりとりの際にミスコミュニケーションが発生し、修正に時間がかかりやすい。&lt;/p>
+&lt;p>案件の特性上多言語でのやり取りになってしまいやすく、コミュニケーションの量というのも多くなってしまうためかと考えているが、それを解消するために、各エラーや問い合わせに対し、より明確にカテゴリ分けを行うことにした。&lt;/p>
+&lt;p>参考にしたのは以下のリンク。&lt;br>
+&lt;a class="link" href="https://www.meridianlinguistics.com/translation-careers/what-counts-as-a-translation-error/" target="_blank" rel="noopener"
+>https://www.meridianlinguistics.com/translation-careers/what-counts-as-a-translation-error/&lt;/a>&lt;/p>
+&lt;p>基本的には、大カテゴリとして、&lt;/p>
+&lt;ul>
+&lt;li>主観的エラー&lt;/li>
+&lt;li>客観的エラー&lt;/li>
+&lt;/ul>
+&lt;p>として分類している。&lt;br>
+客観的エラーはスタイルガイドや用語集に沿わないもの、&lt;br>
+主観的エラーは単純な言葉の嗜好だったり、省略しても翻訳の正確性に影響を及ぼさないもの、などである。&lt;/p>
+&lt;p>導入してみて、共通認識がもてるのでよりコミュニケーションはしやすくなたが、現状数が多く、運用しにくいのでもう少しシンプルにしていきたい。&lt;/p>
+&lt;p>以下ざっくり一覧。&lt;/p>
+&lt;p>客観的なエラー&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>句読点とスペルの誤り&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Omission&lt;br>
+翻訳上、訳文に含む必要のある原文の翻訳抜け&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Mistranslation&lt;br>
+原文とは意味の異なる翻訳&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Undertranslation&lt;br>
+訳文が原文より少ない情報になってしまったり、過度な単純化を行ってしまうこと&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Overtranslation&lt;br>
+原文になかった情報、文言を追加すること。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Localization errors&lt;br>
+指定された地域で一般的でない用語や語彙を使用した翻訳&lt;br>
+イギリス英語とアメリカ英語、ブラジルポルトガル語とポルトガルポルトガル語などでの単語の差異など。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Stylistic Errores, Included in Style Guide&lt;br>
+スタイルガイドで決められた文体、規則に従わないこと&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Specialized Terminology, Included in Glossary&lt;br>
+クライアントと同意している用語集に記載されている専門用語を使用しないこと&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Specialized Terminology, Not Included in Glossary&lt;br>
+用語集にはないが、社会通念上など、一般的に訳として使用されている専門用語ではない訳を使用すること。公的機関名などがこれにあたる。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Contextual Errors&lt;br>
+翻訳の文脈上エラーとされるもの。&lt;br>
+6月→Juneともsix monthsともとれるが、文脈上意味は決まっている。&lt;br>
+※法律だと期間を例えば「6か月」ではなく「6月（ろくげつ）」などと表記されることが多い。翻訳者はよく混乱する模様。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Errors of Grammar or Syntax&lt;br>
+翻訳が翻訳言語の標準的な文法や構文の規則に従っていないもの。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>主観的なエラー&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Preferential terms&lt;br>
+誤訳ではないが、クライアントの意向に沿わない、もしくは事前に共有されていない特殊な訳が指摘されるような場合&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Preferential omissions&lt;br>
+原文では表示されるが、訳文では翻訳しないもの。&lt;br>
+翻訳の正確性には影響を及ぼさないもの。&lt;br>
+「ー－等」の「等」がこれにあたる。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Stylistic Errors Not Included in Style Guide&lt;br>
+トーン、書き方、フォーマルさなどで、訳文の意味に影響を及ぼさないが、クライアントの意向に沿わないもの&lt;br>
+should not と must notどちらでも問題ない場合にクライアントから指摘が入るときなど。&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
