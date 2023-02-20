@@ -1,6 +1,6 @@
 # Change baseurl before deploy
 baseurl = "https://maommm.github.io/hugo-blog"
-languageCode = "en-us"
+languageCode = "ja"
 paginate = 20
 title = "maommm blog"
 
